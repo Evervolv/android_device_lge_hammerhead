@@ -514,5 +514,4 @@ $(call inherit-product-if-exists, $(LOCAL_PATH)/lowram/device.mk)
 $(call inherit-product-if-exists, $(LOCAL_PATH)/wlan/bcmdhd/firmware/bcm4339/device-bcm.mk)
 
 # Vendor security patch level
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.lineage.build.vendor_security_patch=2016-10-05
+VENDOR_SECURITY_PATCH := "2016-10-05"
