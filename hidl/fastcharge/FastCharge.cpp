@@ -25,7 +25,7 @@
 #include "hh_fastcharge.h"
 
 namespace vendor {
-namespace lineage {
+namespace evervolv {
 namespace fastcharge {
 namespace V1_0 {
 namespace implementation {
@@ -93,5 +93,5 @@ Return<bool> FastCharge::setEnabled(bool enable) {
 }  // namespace implementation
 }  // namespace V1_0
 }  // namespace fastcharge
-}  // namespace lineage
+}  // namespace evervolv
 }  // namespace vendor

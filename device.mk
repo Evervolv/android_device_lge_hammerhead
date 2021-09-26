@@ -319,7 +319,7 @@ PRODUCT_PACKAGES += \
 
 # FastCharge
 PRODUCT_PACKAGES += \
-    vendor.lineage.fastcharge@1.0-service.hh
+    vendor.evervolv.fastcharge@1.0-service.hh
 
 PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-impl
